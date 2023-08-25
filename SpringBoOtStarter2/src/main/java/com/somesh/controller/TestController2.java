@@ -43,7 +43,8 @@ public class TestController2 {
 
 			students = TestService.getStudents();
 
-		} catch (AppException e) {
+		} catch (AppException e) { 
+			
 			log.error(String.format("exception in getStudents while getting students data in Controller class : %s",
 					e.getMessage()));
 		} catch (Exception e) {
