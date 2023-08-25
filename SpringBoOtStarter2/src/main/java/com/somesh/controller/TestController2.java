@@ -37,7 +37,7 @@ public class TestController2 {
 		String methodName = "getStudents";
 		log.debug(String.format("Controller method %s start", methodName));
 
-		List<Student> students = null;
+		List<Student> students = null; 
 
 		try {
 
