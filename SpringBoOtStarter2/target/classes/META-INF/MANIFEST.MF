@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: Someshwar Reddy
+Build-Jdk: 17.0.7
+Implementation-Title: SpringBoOtStarter
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.somesh
+Implementation-URL: https://spring.io/projects/spring-boot/SpringBoOtSta
+ rter
+Created-By: Maven Integration for Eclipse
+
