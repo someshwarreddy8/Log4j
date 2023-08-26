@@ -22,7 +22,7 @@ public class SpringBootLog4jStarter {
 		PropertyConfigurator.configure("src/main/java/com/somesh/Log4jProperties/Log4j.properties");
 	}
 
-	public static void main(String[] args) { 
+	public static void main(String[] args) {  
 		String methodName="main";
                      log.debug(String.format("method : %s starts in SpringBootLog4jStarter", methodName));
 		             SpringApplication application = new SpringApplication(SpringBootLog4jStarter.class);
