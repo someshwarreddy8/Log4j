@@ -1,0 +1,58 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.somesh</groupId>
+	<artifactId>SpringBootLog4j</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<description>Logging in SpringBoot With Logback implementation</description> <!--By default, logback v'll be the logging framework with springboot.-->
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.5.2</version>
+	</parent>
+	<properties>
+		<java.version>1.8</java.version>
+		<maven-jar-plugin.version>3.1.1</maven-jar-plugin.version>
+
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.release>8</maven.compiler.release>
+		<maven.compiler.source>8</maven.compiler.source>
+		<maven.compiler.target>8</maven.compiler.target>
+		<!--Above 2 lines are used to change maven java compiler version to java 8-->
+	</properties>
+	<dependencies>
+
+		<!--https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>8.0.28</version>
+		</dependency>
+
+    <!--    https://mvnrepository.com/artifact/log4j/log4j 
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.17</version>
+		</dependency>-->
+		
+	</dependencies>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+</project>
